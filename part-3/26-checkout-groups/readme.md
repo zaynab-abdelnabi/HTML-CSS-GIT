@@ -1,6 +1,6 @@
 # Checkout Groups - Fieldset
 
-In [exercise 21](/week-3/21-dietary), you used `<fieldset>` and `<legend>` to group checkboxes together. In this exercise, you will use these tags to describe a group of fields that are related to each other.
+In [exercise 21](/part-3/21-dietary), you used `<fieldset>` and `<legend>` to group checkboxes together. In this exercise, you will use these tags to describe a group of fields that are related to each other.
 
 To send the t-shirt to your customer you need to know where they want it to be delivered. This may be different from the address on the card they use to make payment. In this exercise, you will create two groups of fields: one for the billing address and one for the delivery address.
 

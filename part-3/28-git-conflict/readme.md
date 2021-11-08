@@ -6,7 +6,7 @@ Follow the instructions below to create a merge conflict and then learn how to s
 
 > _Hint: There are many ways this exercise can cause problems if you don't follow the steps precisely. If you are confused at any time, ask a mentor for help._
 
-In [exercise 15](/week-2/15-git-merge) you created and merged a pull request to change the links to `orangered`. But your boss is still not happy. She wants to try a purple colour (`fuchsia`).
+In [exercise 15](/part-2/15-git-merge) you created and merged a pull request to change the links to `orangered`. But your boss is still not happy. She wants to try a purple colour (`fuchsia`).
 
 First, make sure you are on the `master` branch:
 
@@ -46,7 +46,7 @@ Edit the `style.css` file and change the colour of the links in your messages to
 
 Phew! You have restored the blue links and customers have stopped complaining. The next day your boss decides she wants to launch the purple links. You can do this by merging your `purple_links` branch into master.
 
-In [exercise 15](/week-2/15-git-merge) you merged a branch into `master` using GitHub. This time we'll do the same thing on the command line.
+In [exercise 15](/part-2/15-git-merge) you merged a branch into `master` using GitHub. This time we'll do the same thing on the command line.
 
 Check out the `master` branch:
 
@@ -65,12 +65,12 @@ git merge purple_links
 When you try to do this, you will get a message telling you that there is a merge conflict.
 
 ```
-Auto-merging week-3/20-git-conflict/styles.css
-CONFLICT (content): Merge conflict in week-3/20-git-conflict/styles.css
+Auto-merging part-3/20-git-conflict/styles.css
+CONFLICT (content): Merge conflict in part-3/20-git-conflict/styles.css
 Automatic merge failed; fix conflicts and then commit the result.
 ```
 
-This tells you that there is a merge conflict in the file `week-3/20-git-conflict/styles.css`. If you open the file you will find that lines have been added to the file.
+This tells you that there is a merge conflict in the file `part-3/20-git-conflict/styles.css`. If you open the file you will find that lines have been added to the file.
 
 ```CSS
 /* Add your own CSS code below */
@@ -101,7 +101,7 @@ Since these commits change the same line of code, git doesn't know which one is 
 Test the changes in your browser. If the links have been changed to a purple colour, you've resolved the merge conflict. Now you need to add and commit the files to complete the merge. Run the following commands:
 
 ```shell
-git add week-3/20-git-conflict/styles.css
+git add part-3/20-git-conflict/styles.css
 git commit -m "Merge purple_links branch"
 ```
 
