@@ -1,1 +1,49 @@
 /* Add your own CSS code below */
+
+.love {
+  color: #c85308;
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-form fieldset label {
+  margin: 10px;
+}
+
+article {
+  max-width: 50em;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.main-article p {
+  line-height: 22px;
+}
+
+@media screen and (min-width: 992px) {
+  .hero__title {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .views {
+    display: flex;
+    align-items: center;
+  }
+  .views * {
+    margin: 10px;
+  }
+  .views__all {
+    margin-left: auto;
+  }
+}
