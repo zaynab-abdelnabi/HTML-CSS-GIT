@@ -21,6 +21,6 @@
   justify-content: flex-end;
 }
 .countries--fourth {
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: space-around;
 }
